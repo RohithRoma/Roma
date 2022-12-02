@@ -7,6 +7,43 @@ app_description = "It is a Demo app"
 app_email = "rohith@gmail.com"
 app_license = "MIT"
 
+
+
+fixtures=[ 
+		{"dt":"Custom Field",
+			"filters":[
+			[
+			"name","in",[
+				"Customer-customer_image",
+				"Customer-customer_gender",
+				"Customer-customer_location",
+				"Customer-customer_phno",
+				"Customer-customer_sign",
+				"Customer-customer_full_address"
+			]
+			]
+			]
+		}
+
+
+		{"dt":"Property setter",
+			"filters":[
+			[
+			"name","in",[
+				"Customer-customer_type-label",
+				"Customer-customer_type-in_list_view",
+				"Customer-customer_type-in_standard_filter",
+				"Customer-customer_type-default",
+				"Customer-customer_group-read_only",
+				"Customer-gender-read_only",
+				"Customer-lead_name-read_only",
+				"Customer-opportunity_name-read_only"
+			]
+			]
+			]
+		}
+  ]
+
 # Includes in <head>
 # ------------------
 
