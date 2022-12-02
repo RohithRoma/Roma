@@ -22,8 +22,8 @@ fixtures=[
 				"Customer-customer_full_address"
 			]
 			]
-			]
-		}
+		]
+	},
 
 
 		{"dt":"Property setter",
@@ -40,8 +40,8 @@ fixtures=[
 				"Customer-opportunity_name-read_only"
 			]
 			]
-			]
-		}
+		]
+	}
   ]
 
 # Includes in <head>
