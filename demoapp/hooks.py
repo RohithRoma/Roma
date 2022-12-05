@@ -26,7 +26,7 @@ fixtures=[
 	},
 
 
-		{"dt":"Property setter",
+		{"dt":"Property Setter",
 			"filters":[
 			[
 			"name","in",[
@@ -38,6 +38,18 @@ fixtures=[
 				"Customer-gender-read_only",
 				"Customer-lead_name-read_only",
 				"Customer-opportunity_name-read_only"
+			]
+			]
+		]
+	},
+
+
+		{"dt":"Print Format",
+			"filters":[
+			[
+			"name","in",[
+				"Training",
+				"Html Print Format"
 			]
 			]
 		]
