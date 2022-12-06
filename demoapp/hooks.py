@@ -68,7 +68,7 @@ fixtures=[
 			"filters":[
 			[
 			"name","in",[
-				"Sales Invoice Workflow"
+				"sales invoice notification"
 			]
 			]
 		]
