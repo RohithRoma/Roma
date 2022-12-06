@@ -1,0 +1,62 @@
+[
+ {
+  "attach_print": 0,
+  "channel": "Email",
+  "condition": "",
+  "date_changed": null,
+  "days_in_advance": 0,
+  "docstatus": 0,
+  "doctype": "Notification",
+  "document_type": "Sales Invoice",
+  "enabled": 1,
+  "event": "Save",
+  "is_standard": 0,
+  "message": "<h3>Hi {{doc.customer}},\nYour Sales Invoice Has been Succesfully Submitted.\nYour workflow states is {{doc.workflow}}\nThank you.</h3>",
+  "method": null,
+  "modified": "2022-12-06 18:09:27.113520",
+  "module": null,
+  "name": "sales invoice notification",
+  "print_format": null,
+  "property_value": null,
+  "recipients": [
+   {
+    "bcc": null,
+    "cc": null,
+    "condition": "doc.workflow_state == \"Draft\"",
+    "parent": "sales invoice notification",
+    "parentfield": "recipients",
+    "parenttype": "Notification",
+    "receiver_by_document_field": "owner",
+    "receiver_by_role": "Sales Manager"
+   },
+   {
+    "bcc": null,
+    "cc": null,
+    "condition": "doc.workflow_state == \"Approved by Sales Manager\"",
+    "parent": "sales invoice notification",
+    "parentfield": "recipients",
+    "parenttype": "Notification",
+    "receiver_by_document_field": "owner",
+    "receiver_by_role": "Sales Master Manager"
+   },
+   {
+    "bcc": null,
+    "cc": null,
+    "condition": "doc.workflow_state == \"Approved by Sales Master Manager\"",
+    "parent": "sales invoice notification",
+    "parentfield": "recipients",
+    "parenttype": "Notification",
+    "receiver_by_document_field": "owner",
+    "receiver_by_role": "Stock Manager"
+   }
+  ],
+  "send_system_notification": 1,
+  "send_to_all_assignees": 1,
+  "sender": "",
+  "sender_email": "",
+  "set_property_after_alert": null,
+  "slack_webhook_url": null,
+  "subject": "{{doc.customer}} Submitted.",
+  "value_changed": null
+ }
+]

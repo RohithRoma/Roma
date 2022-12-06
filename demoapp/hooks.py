@@ -64,7 +64,7 @@ fixtures=[
 			]
 		]
 	},
-		{"dt":"Notifications",
+		{"dt":"Notification",
 			"filters":[
 			[
 			"name","in",[
