@@ -53,6 +53,17 @@ fixtures=[
 			]
 			]
 		]
+	},
+
+		{"dt":"WorkFlow And Notifications",
+			"filters":[
+			[
+			"name","in",[
+				"Sales Invoice Workflow",
+				"sales invoice notification"
+			]
+			]
+		]
 	}
   ]
 
