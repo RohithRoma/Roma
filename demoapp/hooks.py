@@ -59,7 +59,9 @@ fixtures=[
 			"filters":[
 			[
 			"name","in",[
-				"Sales Invoice Workflow"
+				"Sales Invoice Workflow",
+				"Workflow State",
+				"Workflow Action Master"
 			]
 			]
 		]
