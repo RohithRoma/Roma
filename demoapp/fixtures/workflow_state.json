@@ -1,0 +1,74 @@
+[
+ {
+  "docstatus": 0,
+  "doctype": "Workflow State",
+  "icon": "question-sign",
+  "modified": "2022-12-01 16:13:53.775964",
+  "name": "Pending",
+  "style": "",
+  "workflow_state_name": "Pending"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Workflow State",
+  "icon": "ok-sign",
+  "modified": "2022-12-01 16:13:53.779714",
+  "name": "Approved",
+  "style": "Success",
+  "workflow_state_name": "Approved"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Workflow State",
+  "icon": "remove",
+  "modified": "2022-12-01 16:13:53.974300",
+  "name": "Rejected",
+  "style": "Danger",
+  "workflow_state_name": "Rejected"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Workflow State",
+  "icon": "",
+  "modified": "2022-12-06 14:36:06.236272",
+  "name": "Draft",
+  "style": "Warning",
+  "workflow_state_name": "Draft"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Workflow State",
+  "icon": "",
+  "modified": "2022-12-06 14:37:27.442733",
+  "name": "Approved by Sales Manager",
+  "style": "Primary",
+  "workflow_state_name": "Approved by Sales Manager"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Workflow State",
+  "icon": "",
+  "modified": "2022-12-06 14:37:15.991614",
+  "name": "Approved by Sales Master Manager",
+  "style": "Info",
+  "workflow_state_name": "Approved by Sales Master Manager"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Workflow State",
+  "icon": "",
+  "modified": "2022-12-06 14:36:58.307301",
+  "name": "Approved By Stock Manager",
+  "style": "Success",
+  "workflow_state_name": "Approved By Stock Manager"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Workflow State",
+  "icon": "",
+  "modified": "2022-12-06 14:36:34.096871",
+  "name": "Rejected by Sales Manager",
+  "style": "Danger",
+  "workflow_state_name": "Rejected by Sales Manager"
+ }
+]

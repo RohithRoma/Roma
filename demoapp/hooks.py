@@ -9,7 +9,7 @@ app_license = "MIT"
 
 
 
-fixtures=[ 
+fixtures=[ "Server Script", "Workflow Action Master","Workflow State",
 		{"dt":"Custom Field",
 			"filters":[
 			[
@@ -59,9 +59,7 @@ fixtures=[
 			"filters":[
 			[
 			"name","in",[
-				"Sales Invoice Workflow",
-				"Workflow State",
-				"Workflow Action Master"
+				"Sales Invoice Workflow"
 			]
 			]
 		]
@@ -172,13 +170,13 @@ fixtures=[
 # ---------------
 # Hook on document methods and events
 
-# doc_events = {
-#	"*": {
-#		"on_update": "method",
-#		"on_cancel": "method",
-#		"on_trash": "method"
-#	}
-# }
+doc_events = {
+	"Purchase Order": {
+		"before_save": "demoapp.demoapp.doctype.purchase_order.purchase_order.discount",
+		"on_cancel": "demoapp.demoapp.doctype.purchase_order.purchase_order.cancel",
+		# "on_trash": "method"
+	}
+}
 
 # Scheduled Tasks
 # ---------------

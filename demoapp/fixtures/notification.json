@@ -13,7 +13,7 @@
   "is_standard": 0,
   "message": "<h3>Hi {{doc.customer}},\nYour Sales Invoice Has been Succesfully Submitted.\nYour workflow states is {{doc.workflow}}\nThank you.</h3>",
   "method": null,
-  "modified": "2022-12-06 18:09:27.113520",
+  "modified": "2022-12-06 18:48:51.061161",
   "module": null,
   "name": "sales invoice notification",
   "print_format": null,
@@ -22,7 +22,7 @@
    {
     "bcc": null,
     "cc": null,
-    "condition": "doc.workflow_state == \"Draft\"",
+    "condition": "",
     "parent": "sales invoice notification",
     "parentfield": "recipients",
     "parenttype": "Notification",
@@ -48,6 +48,16 @@
     "parenttype": "Notification",
     "receiver_by_document_field": "owner",
     "receiver_by_role": "Stock Manager"
+   },
+   {
+    "bcc": null,
+    "cc": null,
+    "condition": null,
+    "parent": "sales invoice notification",
+    "parentfield": "recipients",
+    "parenttype": "Notification",
+    "receiver_by_document_field": "owner",
+    "receiver_by_role": null
    }
   ],
   "send_system_notification": 1,
